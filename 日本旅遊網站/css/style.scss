@@ -1,0 +1,62 @@
+$themecolor: rgba(152, 57, 255, 0.5);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:
+/*西文*/ -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, /*中文*/ "蘋方-繁", "PingFang TC", "黑體-繁", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    div.nav-logo {
+        display: flex;
+        align-items: center;
+        flex: 2 1 400px;
+        figure {
+            margin: 0;
+            width: 6vw;
+            height: 6vw;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+    }
+    nav.nav-right {
+        flex: 5 1 500px;
+        ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            li {
+                a {
+                    color: black;
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    border-bottom: 2px solid transparent;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        color: $themecolor;
+                        border-bottom: 2px solid $themecolor;
+                    }
+                }
+            }
+        }
+    }
+}
