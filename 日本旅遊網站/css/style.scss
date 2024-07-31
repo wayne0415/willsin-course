@@ -60,3 +60,15 @@ header {
         }
     }
 }
+main {
+    section.bgi {
+        // set background-image
+        min-height: 70vh;
+        background-image: url(../images/日本櫻花.jpg);
+        background-size: cover;
+        div.filter {
+        }
+        h3 {
+        }
+    }
+}

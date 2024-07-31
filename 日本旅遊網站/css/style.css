@@ -58,4 +58,10 @@ header nav.nav-right ul li a {
 header nav.nav-right ul li a:hover {
   color: rgba(152, 57, 255, 0.5);
   border-bottom: 2px solid rgba(152, 57, 255, 0.5);
+}
+
+main section.bgi {
+  min-height: 70vh;
+  background-image: url(../images/日本櫻花.jpg);
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
